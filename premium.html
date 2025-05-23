@@ -2,23 +2,26 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>🌿 Fitur Premium - Temani Tumbuh</title>
   <style>
+    :root {
+      font-size: 62.5%;
+    }
     body {
       font-family: 'Segoe UI', sans-serif;
       background: #f9faf8;
       margin: 0;
-      padding: 40px 20px;
+      padding: 4rem 2rem;
       color: #2a7f62;
-      font-size: 1.8rem;
-      line-height: 1.8;
+      font-size: 1.6rem;
+      line-height: 1.7;
     }
     .container {
       max-width: 1000px;
       margin: 0 auto;
       background: white;
-      padding: 60px 60px;
+      padding: 4rem 3rem;
       border-radius: 24px;
       box-shadow: 0 8px 30px rgba(42,127,98,0.15);
     }
@@ -26,37 +29,37 @@
       text-align: center;
       font-weight: 700;
       margin-bottom: 1rem;
-      font-size: 4rem;
+      font-size: 3.6rem;
     }
     p.subtitle {
       color: #4a7d64;
       margin-bottom: 3rem;
-      font-size: 2.2rem;
+      font-size: 2rem;
       text-align: center;
     }
     .section {
       margin-bottom: 4rem;
     }
     .section h2 {
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       margin-bottom: 1rem;
       color: #2a7f62;
     }
     ul.features {
-      padding-left: 1.5em;
+      padding-left: 2rem;
       color: #3c6e58;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
     ul.features li {
-      margin-bottom: 1.4rem;
+      margin-bottom: 1.2rem;
     }
     .btn-primary {
       background-color: #2a7f62;
       color: white;
       border: none;
-      padding: 1.5rem 3.5rem;
+      padding: 1.4rem 3rem;
       border-radius: 16px;
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: bold;
       cursor: pointer;
       text-decoration: none;
@@ -69,13 +72,32 @@
     }
     .note {
       margin-top: 4rem;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: #607d6e;
       text-align: center;
     }
     .btn-group {
       text-align: center;
-      margin-top: 2.5rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 3rem;
+      }
+      p.subtitle {
+        font-size: 1.8rem;
+      }
+      .section h2 {
+        font-size: 2rem;
+      }
+      .btn-primary {
+        font-size: 1.6rem;
+        padding: 1.2rem 2.5rem;
+      }
+      ul.features {
+        font-size: 1.6rem;
+      }
     }
   </style>
 </head>
